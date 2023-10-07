@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B7234FD82AD200B000BFD8FF /* BoxteeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7234FD72AD200B000BFD8FF /* BoxteeHeader.swift */; };
+		B7234FDA2AD203BA00BFD8FF /* BoxteeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7234FD92AD203BA00BFD8FF /* BoxteeTabBar.swift */; };
 		B7B49DE92A9CE1C5000C9062 /* boxteeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B49DE82A9CE1C5000C9062 /* boxteeApp.swift */; };
 		B7B49DEB2A9CE1C5000C9062 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B49DEA2A9CE1C5000C9062 /* ContentView.swift */; };
 		B7B49DED2A9CE1C5000C9062 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B49DEC2A9CE1C5000C9062 /* Item.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		B7234FD72AD200B000BFD8FF /* BoxteeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxteeHeader.swift; sourceTree = "<group>"; };
+		B7234FD92AD203BA00BFD8FF /* BoxteeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxteeTabBar.swift; sourceTree = "<group>"; };
 		B7B49DE52A9CE1C5000C9062 /* boxtee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boxtee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B49DE82A9CE1C5000C9062 /* boxteeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boxteeApp.swift; sourceTree = "<group>"; };
 		B7B49DEA2A9CE1C5000C9062 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				B7234FD72AD200B000BFD8FF /* BoxteeHeader.swift */,
+				B7234FD92AD203BA00BFD8FF /* BoxteeTabBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				B7B49DEB2A9CE1C5000C9062 /* ContentView.swift in Sources */,
 				B7234FD82AD200B000BFD8FF /* BoxteeHeader.swift in Sources */,
 				B7B49DED2A9CE1C5000C9062 /* Item.swift in Sources */,
+				B7234FDA2AD203BA00BFD8FF /* BoxteeTabBar.swift in Sources */,
 				B7B49DE92A9CE1C5000C9062 /* boxteeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
