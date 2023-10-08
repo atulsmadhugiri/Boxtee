@@ -13,7 +13,8 @@ struct BoxteeHeader: View {
         Text("BOXTEE")
           .foregroundColor(Color(UIColor.label))
           .font(Font.custom("Futura Bold", size: 34.0))
-      })
+      }
+    ).padding()
   }
 }
 

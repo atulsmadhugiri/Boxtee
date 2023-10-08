@@ -9,7 +9,7 @@ func getScene() -> SCNScene {
   cameraNode.camera = SCNCamera()
   scene.rootNode.addChildNode(cameraNode)
 
-  cameraNode.position = SCNVector3(x: 0, y: 0, z: 15)
+  cameraNode.position = SCNVector3(x: 0, y: -1, z: 15)
 
   let lightNode = SCNNode()
   lightNode.light = SCNLight()
