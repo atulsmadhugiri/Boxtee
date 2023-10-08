@@ -3,7 +3,7 @@ import QuartzCore
 import SceneKit
 
 func getScene() -> SCNScene {
-  let scene = SCNScene(named: "SceneKitAssets/shirt.scn")!
+  let scene = SCNScene(named: "SceneKitAssets.scnassets/shirt.scn")!
 
   let cameraNode = SCNNode()
   cameraNode.camera = SCNCamera()
@@ -31,16 +31,12 @@ func getScene() -> SCNScene {
 
   let shirt = scene.rootNode.childNode(withName: "hanger reference", recursively: true)!
 
-  shirt.runAction(SCNAction.rotateBy(x: 0, y: 600.4, z: 0, duration: 400), forKey: "rot")
+  shirt.runAction(SCNAction.rotateBy(x: 0, y: 60000, z: 0, duration: 40000), forKey: "rot")
 
   scene.rootNode.childNode(withName: "T_Shirt", recursively: true)?.geometry?.materials[0].diffuse
     .contents = UIColor(red: 1, green: 1, blue: 1, alpha: 1.00)
 
-  let filename: URL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-    .appendingPathComponent("atul.scn")
-
   scene.rootNode.camera?.wantsHDR = true
-  scene.write(to: filename, options: nil, delegate: nil, progressHandler: nil)
 
   return scene
 }
