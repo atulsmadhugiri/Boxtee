@@ -25,7 +25,7 @@ struct boxteeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BoxteeWelcome()
         }
         .modelContainer(sharedModelContainer)
     }
